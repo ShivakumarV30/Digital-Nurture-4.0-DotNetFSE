@@ -27,15 +27,3 @@ FROM (
     FROM Products
 ) RankedProducts
 WHERE RowNum <= 3 OR PriceRank <= 3 OR DenseRank <= 3;
-
-DELIMITER //
-
-CREATE PROCEDURE GetProductsByCategory(IN cat VARCHAR(50))
-BEGIN
-    SELECT ProductID, ProductName, Category, Price
-    FROM Products
-    WHERE Category = cat;
-END //
-
-DELIMITER ;
-CALL GetProductsByCategory('Electronics');
