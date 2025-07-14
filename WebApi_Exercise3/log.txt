@@ -1,3 +1,0 @@
-Exception: Testing exception logging
-Exception: Testing exception logging
-Exception: Testing exception logging
