@@ -1,0 +1,35 @@
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.button-row {
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.column {
+  border-left: 4px solid green;
+  padding: 0 20px;
+}
+
+.column:first-child {
+  border-left: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+}
+
+h4 {
+  margin: 0 0 15px;
+}
